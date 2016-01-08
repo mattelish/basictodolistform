@@ -1,0 +1,24 @@
+h1, h2, h3 {
+    font-size: 2.5em;
+    color: blue;
+}
+body {
+    position: relative;
+    border: 20px solid green;
+    border: center;
+    display: block;
+    padding: 100px;
+    text-align: center;
+    background-color: grey;
+   
+}
+
+p {
+  display: block;
+  float: center;
+  width: 170px;
+}
+
+form {
+  display: table; 
+}

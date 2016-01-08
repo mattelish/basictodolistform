@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+ 
+           
+{% block content %}
+       <div>
+        <h1>Register Now</h1>
+          <form action='' method='POST'>{% csrf_token %}
+            {{ form.media }}
+            {{ form.as_p }}
+            
+            <input type='submit' value="Submit" />
+          </form>
+        </div>
+    
+{% endblock %}
