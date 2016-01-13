@@ -1,2 +1,2 @@
 # basictodolistform
-simple django basic todolist form 
+django basic todolist form 
